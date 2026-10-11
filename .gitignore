@@ -1,61 +1,48 @@
-# Byte-compiled / optimized / DLL files
+# Python files
 __pycache__/
 *.py[cod]
 *$py.class
-
-# Distribution / Packaging
-dist/
-build/
-*.egg-info/
-.eggs/
+*.so
 
 # Virtual environments
 venv/
 env/
-.env/
 .venv/
+ENV/
 
-# IDE
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python build files
+build/
+dist/
+*.egg-info/
+
+# IDE settings
 .vscode/
 .idea/
-*.swp
-*.swo
-*~
 
-# OS
+# Operating system files
 .DS_Store
 Thumbs.db
 
-# Logs
-logs/
+# Logs and testing
 *.log
-
-# Test coverage
+.pytest_cache/
 .coverage
 htmlcov/
-.pytest_cache/
 
-# Benchmark results
+# Jupyter
+.ipynb_checkpoints/
+
+# Temporary files
+tempCodeRunnerFile.py
+
+# Large or generated results
 data/results/
-*.json
-!config/*.yaml
 
-# Docker
-docker-compose.override.yml
-
-# Hyperledger Fabric
+# Hyperledger Fabric generated files
 network/crypto-config/
 network/channel-artifacts/
-network/docker-compose.yaml
-
-# Environment files
-.env
-.env.local
-.env.*.local
-
-# Mypy
-.mypy_cache/
-*.pyi
-
-# Type checking
-.pyre/

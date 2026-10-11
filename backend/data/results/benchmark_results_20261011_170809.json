@@ -1,0 +1,1209 @@
+{
+  "aes": {
+    "aes_128_GCM": {
+      "1024": {
+        "avg_encryption_ms": 0.016794999974081293,
+        "avg_decryption_ms": 0.015025000020614243,
+        "min_encryption_ms": 0.012600000445672777,
+        "max_encryption_ms": 0.240999999732594,
+        "throughput_mbps": 58.14602569259123
+      },
+      "10240": {
+        "avg_encryption_ms": 0.01631299996006419,
+        "avg_decryption_ms": 0.016440999970654957,
+        "min_encryption_ms": 0.015100000382517464,
+        "max_encryption_ms": 0.040500000068277586,
+        "throughput_mbps": 598.640656158107
+      },
+      "102400": {
+        "avg_encryption_ms": 0.04342999999607855,
+        "avg_decryption_ms": 0.04297399998904439,
+        "min_encryption_ms": 0.0380000001314329,
+        "max_encryption_ms": 0.14630000077886507,
+        "throughput_mbps": 2248.5896847528834
+      },
+      "1048576": {
+        "avg_encryption_ms": 1.177873999977237,
+        "avg_decryption_ms": 1.1195490000227437,
+        "min_encryption_ms": 0.8631000000605127,
+        "max_encryption_ms": 2.719699999943259,
+        "throughput_mbps": 848.9872431340921
+      },
+      "10485760": {
+        "avg_encryption_ms": 9.535855000003721,
+        "avg_decryption_ms": 10.167823999954635,
+        "min_encryption_ms": 7.7006000001347275,
+        "max_encryption_ms": 11.723900000106369,
+        "throughput_mbps": 1048.6736637664999
+      }
+    },
+    "aes_128_CBC": {
+      "1024": {
+        "avg_encryption_ms": 0.13841699993463408,
+        "avg_decryption_ms": 0.015671000101065147,
+        "min_encryption_ms": 0.01359999987471383,
+        "max_encryption_ms": 12.158200000158104,
+        "throughput_mbps": 7.055220821583845
+      },
+      "10240": {
+        "avg_encryption_ms": 0.022690999994665617,
+        "avg_decryption_ms": 0.018072999992000405,
+        "min_encryption_ms": 0.020899999981338624,
+        "max_encryption_ms": 0.03329999981360743,
+        "throughput_mbps": 430.37437760767625
+      },
+      "102400": {
+        "avg_encryption_ms": 0.09695699999610952,
+        "avg_decryption_ms": 0.039579999984198366,
+        "min_encryption_ms": 0.09000000045489287,
+        "max_encryption_ms": 0.18210000052931719,
+        "throughput_mbps": 1007.21195998142
+      },
+      "1048576": {
+        "avg_encryption_ms": 1.9245450000835262,
+        "avg_decryption_ms": 1.524812999923597,
+        "min_encryption_ms": 1.4601000002585351,
+        "max_encryption_ms": 2.4571000003561494,
+        "throughput_mbps": 519.6033347916518
+      },
+      "10485760": {
+        "avg_encryption_ms": 26.84233199996015,
+        "avg_decryption_ms": 29.66860700002144,
+        "min_encryption_ms": 13.681200000064564,
+        "max_encryption_ms": 92.33190000031755,
+        "throughput_mbps": 372.5458726914951
+      }
+    },
+    "aes_128_CTR": {
+      "1024": {
+        "avg_encryption_ms": 0.03291799993348832,
+        "avg_decryption_ms": 0.013226000028225826,
+        "min_encryption_ms": 0.01249999968422344,
+        "max_encryption_ms": 1.67429999964952,
+        "throughput_mbps": 29.666519897113137
+      },
+      "10240": {
+        "avg_encryption_ms": 0.015109999931155471,
+        "avg_decryption_ms": 0.014084000085858861,
+        "min_encryption_ms": 0.01359999987471383,
+        "max_encryption_ms": 0.05289999990054639,
+        "throughput_mbps": 646.3021207474762
+      },
+      "102400": {
+        "avg_encryption_ms": 0.20846400003392773,
+        "avg_decryption_ms": 0.027633000045170775,
+        "min_encryption_ms": 0.025800000003073364,
+        "max_encryption_ms": 18.030600000201957,
+        "throughput_mbps": 468.4561842049771
+      },
+      "1048576": {
+        "avg_encryption_ms": 4.958505999975387,
+        "avg_decryption_ms": 5.689672000062274,
+        "min_encryption_ms": 0.832099999570346,
+        "max_encryption_ms": 56.37899999965157,
+        "throughput_mbps": 201.67364928165134
+      },
+      "10485760": {
+        "avg_encryption_ms": 28.69369099998039,
+        "avg_decryption_ms": 29.441456000031394,
+        "min_encryption_ms": 7.802500000252621,
+        "max_encryption_ms": 143.9461999998457,
+        "throughput_mbps": 348.50866694029827
+      }
+    },
+    "aes_192_GCM": {
+      "1024": {
+        "avg_encryption_ms": 0.02496400003110466,
+        "avg_decryption_ms": 0.19880000008015486,
+        "min_encryption_ms": 0.013099999705445953,
+        "max_encryption_ms": 0.6198000000949833,
+        "throughput_mbps": 39.118831068066896
+      },
+      "10240": {
+        "avg_encryption_ms": 0.01867800003310549,
+        "avg_decryption_ms": 0.01922399995237356,
+        "min_encryption_ms": 0.015499999790336005,
+        "max_encryption_ms": 0.04199999966658652,
+        "throughput_mbps": 522.8410420115158
+      },
+      "102400": {
+        "avg_encryption_ms": 0.054097999945952324,
+        "avg_decryption_ms": 0.06118599999354046,
+        "min_encryption_ms": 0.04039999930682825,
+        "max_encryption_ms": 0.2623999998832005,
+        "throughput_mbps": 1805.1730211387744
+      },
+      "1048576": {
+        "avg_encryption_ms": 3.659007999995083,
+        "avg_decryption_ms": 2.481026000032216,
+        "min_encryption_ms": 1.0225999994872836,
+        "max_encryption_ms": 26.16810000017722,
+        "throughput_mbps": 273.2981179602077
+      },
+      "10485760": {
+        "avg_encryption_ms": 24.591980000022886,
+        "avg_decryption_ms": 24.977339000006396,
+        "min_encryption_ms": 9.543199999825447,
+        "max_encryption_ms": 74.58539999970526,
+        "throughput_mbps": 406.63663519532355
+      }
+    },
+    "aes_192_CBC": {
+      "1024": {
+        "avg_encryption_ms": 0.029203000021880143,
+        "avg_decryption_ms": 0.02395400001660164,
+        "min_encryption_ms": 0.01630000042496249,
+        "max_encryption_ms": 0.3262999998696614,
+        "throughput_mbps": 33.44048554149633
+      },
+      "10240": {
+        "avg_encryption_ms": 0.03038199999537028,
+        "avg_decryption_ms": 0.02058500002931396,
+        "min_encryption_ms": 0.022399999579647556,
+        "max_encryption_ms": 0.32110000029206276,
+        "throughput_mbps": 321.4279837235245
+      },
+      "102400": {
+        "avg_encryption_ms": 0.11816800007181882,
+        "avg_decryption_ms": 0.04540700002507947,
+        "min_encryption_ms": 0.10469999961060239,
+        "max_encryption_ms": 0.25410000034753466,
+        "throughput_mbps": 826.4187423045797
+      },
+      "1048576": {
+        "avg_encryption_ms": 7.341096999998626,
+        "avg_decryption_ms": 8.138644999999087,
+        "min_encryption_ms": 2.010399999562651,
+        "max_encryption_ms": 56.649600000127975,
+        "throughput_mbps": 136.2194233368919
+      },
+      "10485760": {
+        "avg_encryption_ms": 52.916356999921845,
+        "avg_decryption_ms": 48.457521999935125,
+        "min_encryption_ms": 16.524599999684142,
+        "max_encryption_ms": 161.38779999982944,
+        "throughput_mbps": 188.97748384331842
+      }
+    },
+    "aes_192_CTR": {
+      "1024": {
+        "avg_encryption_ms": 0.052518000038617174,
+        "avg_decryption_ms": 0.03709700003128091,
+        "min_encryption_ms": 0.012900000001536682,
+        "max_encryption_ms": 1.2391999998726533,
+        "throughput_mbps": 18.594815097336546
+      },
+      "10240": {
+        "avg_encryption_ms": 0.017968999991353485,
+        "avg_decryption_ms": 0.017530999994050944,
+        "min_encryption_ms": 0.013399999261309858,
+        "max_encryption_ms": 0.03329999981360743,
+        "throughput_mbps": 543.4706997996065
+      },
+      "102400": {
+        "avg_encryption_ms": 0.04997699996238225,
+        "avg_decryption_ms": 0.05159099997399608,
+        "min_encryption_ms": 0.0304000004689442,
+        "max_encryption_ms": 0.2378999997745268,
+        "throughput_mbps": 1954.023852442243
+      },
+      "1048576": {
+        "avg_encryption_ms": 4.471410999985892,
+        "avg_decryption_ms": 5.272765000017898,
+        "min_encryption_ms": 0.9758000005604117,
+        "max_encryption_ms": 49.83700000047975,
+        "throughput_mbps": 223.6430513775529
+      },
+      "10485760": {
+        "avg_encryption_ms": 25.705292000093323,
+        "avg_decryption_ms": 25.35509199993612,
+        "min_encryption_ms": 9.182300000247778,
+        "max_encryption_ms": 63.25840000044991,
+        "throughput_mbps": 389.0249525258727
+      }
+    },
+    "aes_256_GCM": {
+      "1024": {
+        "avg_encryption_ms": 0.016666000037730555,
+        "avg_decryption_ms": 0.015020000028016511,
+        "min_encryption_ms": 0.012900000001536682,
+        "max_encryption_ms": 0.19630000042525353,
+        "throughput_mbps": 58.596093711096664
+      },
+      "10240": {
+        "avg_encryption_ms": 0.016530000011698576,
+        "avg_decryption_ms": 0.01651999999921827,
+        "min_encryption_ms": 0.015099999473022763,
+        "max_encryption_ms": 0.037200000406301115,
+        "throughput_mbps": 590.7819112576342
+      },
+      "102400": {
+        "avg_encryption_ms": 0.6780960000014602,
+        "avg_decryption_ms": 0.052755999995497405,
+        "min_encryption_ms": 0.04079999962414149,
+        "max_encryption_ms": 38.45710000041436,
+        "throughput_mbps": 144.01537540376245
+      },
+      "1048576": {
+        "avg_encryption_ms": 4.211250000034852,
+        "avg_decryption_ms": 2.433236000024408,
+        "min_encryption_ms": 1.062899999851652,
+        "max_encryption_ms": 72.30100000015227,
+        "throughput_mbps": 237.45918670032034
+      },
+      "10485760": {
+        "avg_encryption_ms": 28.41741300000649,
+        "avg_decryption_ms": 20.937278000001243,
+        "min_encryption_ms": 10.665900000276451,
+        "max_encryption_ms": 79.06800000000658,
+        "throughput_mbps": 351.8969161618518
+      }
+    },
+    "aes_256_CBC": {
+      "1024": {
+        "avg_encryption_ms": 0.026931999946100404,
+        "avg_decryption_ms": 0.017535000060888706,
+        "min_encryption_ms": 0.014000000192027073,
+        "max_encryption_ms": 0.8538000001863111,
+        "throughput_mbps": 36.26030380047585
+      },
+      "10240": {
+        "avg_encryption_ms": 0.03381099994840042,
+        "avg_decryption_ms": 0.3448069999649306,
+        "min_encryption_ms": 0.028200000087963417,
+        "max_encryption_ms": 0.1736999993227073,
+        "throughput_mbps": 288.8298191388452
+      },
+      "102400": {
+        "avg_encryption_ms": 0.14345599995976954,
+        "avg_decryption_ms": 0.22057399997720495,
+        "min_encryption_ms": 0.12260000039532315,
+        "max_encryption_ms": 0.26560000060271705,
+        "throughput_mbps": 680.740087743883
+      },
+      "1048576": {
+        "avg_encryption_ms": 7.326827999995658,
+        "avg_decryption_ms": 7.21037599995725,
+        "min_encryption_ms": 2.523799999835319,
+        "max_encryption_ms": 49.1597999998703,
+        "throughput_mbps": 136.48471070981776
+      },
+      "10485760": {
+        "avg_encryption_ms": 44.392262999954255,
+        "avg_decryption_ms": 42.443812999981674,
+        "min_encryption_ms": 21.53100000032282,
+        "max_encryption_ms": 100.14899999987392,
+        "throughput_mbps": 225.26447908299482
+      }
+    },
+    "aes_256_CTR": {
+      "1024": {
+        "avg_encryption_ms": 0.020766000052390154,
+        "avg_decryption_ms": 0.01618600000256265,
+        "min_encryption_ms": 0.012399999832268804,
+        "max_encryption_ms": 0.2584000003480469,
+        "throughput_mbps": 47.02699111703018
+      },
+      "10240": {
+        "avg_encryption_ms": 0.022057000005588634,
+        "avg_decryption_ms": 0.024314000074809883,
+        "min_encryption_ms": 0.013800000488117803,
+        "max_encryption_ms": 0.06589999975403771,
+        "throughput_mbps": 442.7449334689967
+      },
+      "102400": {
+        "avg_encryption_ms": 0.4394499999762047,
+        "avg_decryption_ms": 0.04684699998506403,
+        "min_encryption_ms": 0.029400000130408444,
+        "max_encryption_ms": 39.529799999399984,
+        "throughput_mbps": 222.22380249240615
+      },
+      "1048576": {
+        "avg_encryption_ms": 5.758801000074527,
+        "avg_decryption_ms": 2.876959999994142,
+        "min_encryption_ms": 0.9741000003486988,
+        "max_encryption_ms": 51.216600000770995,
+        "throughput_mbps": 173.64725747374473
+      },
+      "10485760": {
+        "avg_encryption_ms": 25.667358999999124,
+        "avg_decryption_ms": 25.636980999988737,
+        "min_encryption_ms": 9.476199999880919,
+        "max_encryption_ms": 78.66259999991598,
+        "throughput_mbps": 389.59988053310593
+      }
+    }
+  },
+  "eddsa": {
+    "eddsa_Ed25519": {
+      "32": {
+        "avg_signing_ms": 0.057393000042793574,
+        "avg_verification_ms": 0.1530980000461568,
+        "min_signing_ms": 0.03819999983534217,
+        "max_signing_ms": 0.12830000014218967,
+        "signatures_per_second": 17423.72761929811,
+        "public_key_size": 32,
+        "signature_size": 64
+      },
+      "64": {
+        "avg_signing_ms": 0.044192000013936195,
+        "avg_verification_ms": 0.28923600002599414,
+        "min_signing_ms": 0.03859999924316071,
+        "max_signing_ms": 0.17329999991488876,
+        "signatures_per_second": 22628.530043551877,
+        "public_key_size": 32,
+        "signature_size": 64
+      },
+      "128": {
+        "avg_signing_ms": 0.04779000003509282,
+        "avg_verification_ms": 0.31575400000292575,
+        "min_signing_ms": 0.03879999985656468,
+        "max_signing_ms": 0.14819999978499254,
+        "signatures_per_second": 20924.87966657642,
+        "public_key_size": 32,
+        "signature_size": 64
+      },
+      "256": {
+        "avg_signing_ms": 0.05088199994133902,
+        "avg_verification_ms": 0.4249390000131825,
+        "min_signing_ms": 0.03889999970851932,
+        "max_signing_ms": 0.20760000006703194,
+        "signatures_per_second": 19653.315536985236,
+        "public_key_size": 32,
+        "signature_size": 64
+      },
+      "512": {
+        "avg_signing_ms": 0.04708000000391621,
+        "avg_verification_ms": 0.8086230000117212,
+        "min_signing_ms": 0.039200000173877925,
+        "max_signing_ms": 0.20589999985531904,
+        "signatures_per_second": 21240.441799422642,
+        "public_key_size": 32,
+        "signature_size": 64
+      },
+      "1024": {
+        "avg_signing_ms": 0.055959000055736396,
+        "avg_verification_ms": 0.44416299997465103,
+        "min_signing_ms": 0.04040000021632295,
+        "max_signing_ms": 0.15629999961674912,
+        "signatures_per_second": 17870.22639796955,
+        "public_key_size": 32,
+        "signature_size": 64
+      }
+    },
+    "eddsa_Ed448": {
+      "32": {
+        "avg_signing_ms": 0.9840909999093128,
+        "avg_verification_ms": 2.2884660001273005,
+        "min_signing_ms": 0.5300000002534944,
+        "max_signing_ms": 34.995499999240565,
+        "signatures_per_second": 1016.1661879766741,
+        "public_key_size": 57,
+        "signature_size": 114
+      },
+      "64": {
+        "avg_signing_ms": 0.8126099999481085,
+        "avg_verification_ms": 1.502503000001525,
+        "min_signing_ms": 0.522399999681511,
+        "max_signing_ms": 20.432899999832443,
+        "signatures_per_second": 1230.6026261845877,
+        "public_key_size": 57,
+        "signature_size": 114
+      },
+      "128": {
+        "avg_signing_ms": 2.349489999951402,
+        "avg_verification_ms": 2.3506199999701494,
+        "min_signing_ms": 0.528900000063004,
+        "max_signing_ms": 75.53749999988213,
+        "signatures_per_second": 425.6242844279757,
+        "public_key_size": 57,
+        "signature_size": 114
+      },
+      "256": {
+        "avg_signing_ms": 1.904876000025979,
+        "avg_verification_ms": 0.7348080000156187,
+        "min_signing_ms": 0.5258000001049368,
+        "max_signing_ms": 29.34449999975186,
+        "signatures_per_second": 524.9685543764328,
+        "public_key_size": 57,
+        "signature_size": 114
+      },
+      "512": {
+        "avg_signing_ms": 0.964125000000422,
+        "avg_verification_ms": 3.4255270000176097,
+        "min_signing_ms": 0.5337000002327841,
+        "max_signing_ms": 31.242500000189466,
+        "signatures_per_second": 1037.2099053541422,
+        "public_key_size": 57,
+        "signature_size": 114
+      },
+      "1024": {
+        "avg_signing_ms": 1.7735710000215477,
+        "avg_verification_ms": 2.753232000022763,
+        "min_signing_ms": 0.5279999995764229,
+        "max_signing_ms": 65.41790000028413,
+        "signatures_per_second": 563.834207927312,
+        "public_key_size": 57,
+        "signature_size": 114
+      }
+    }
+  },
+  "hyperledger": {
+    "invoke": {
+      "latencies": [
+        37.09969999999885,
+        26.0746999992989,
+        38.22719999971014,
+        32.171699999707926,
+        38.88920000008511,
+        30.791200000749086,
+        37.22360000028857,
+        17.805600000428967,
+        45.58379999980389,
+        31.194700000014564,
+        31.02149999995163,
+        30.658100000437116,
+        31.53759999986505,
+        28.608600000552542,
+        35.195999999814376,
+        29.384399999798916,
+        35.089699999844015,
+        31.353600000329607,
+        39.81819999989966,
+        71.81089999994583
+      ],
+      "throughputs": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "success_rate": 1.0,
+      "avg_latency_ms": 34.97700000002624,
+      "avg_throughput_tps": 100.0,
+      "min_latency_ms": 17.805600000428967,
+      "max_latency_ms": 71.81089999994583
+    },
+    "query": {
+      "latencies": [
+        23.741899999549787,
+        20.44740000019374,
+        35.333900000296126,
+        35.0177000000258,
+        45.66959999920073,
+        68.52320000052714,
+        33.18260000014561,
+        39.31120000015653,
+        35.7239999993908,
+        66.79809999968711,
+        93.873299999359,
+        53.451000000677595,
+        14.421599999877799,
+        13.008500000069034,
+        22.737799999958952,
+        30.406100000618608,
+        41.98909999922762,
+        32.880499999919266,
+        35.92359999947803,
+        18.249599999762722
+      ],
+      "throughputs": [
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500
+      ],
+      "success_rate": 1.0,
+      "avg_latency_ms": 38.0345349999061,
+      "avg_throughput_tps": 500.0,
+      "min_latency_ms": 13.008500000069034,
+      "max_latency_ms": 93.873299999359
+    }
+  },
+  "security": {
+    "aes": {
+      "algorithm": "AES",
+      "overall_rating": "HIGH",
+      "key_sizes": {
+        "128": {
+          "security_bits": 128,
+          "quantum_bits": 64,
+          "recommended": "legacy_only"
+        },
+        "192": {
+          "security_bits": 192,
+          "quantum_bits": 96,
+          "recommended": "transitioning"
+        },
+        "256": {
+          "security_bits": 256,
+          "quantum_bits": 128,
+          "recommended": "preferred"
+        }
+      },
+      "modes": {
+        "GCM": {
+          "authenticated": true,
+          "nonce_misuse_resistant": false,
+          "recommended": true
+        },
+        "CBC": {
+          "authenticated": false,
+          "nonce_misuse_resistant": false,
+          "recommended": false
+        },
+        "CTR": {
+          "authenticated": false,
+          "nonce_misuse_resistant": false,
+          "recommended": false
+        },
+        "CCM": {
+          "authenticated": true,
+          "nonce_misuse_resistant": false,
+          "recommended": true
+        },
+        "OCB": {
+          "authenticated": true,
+          "nonce_misuse_resistant": true,
+          "recommended": true
+        }
+      },
+      "findings": [
+        {
+          "category": "Key Management",
+          "severity": "SecurityLevel.HIGH",
+          "description": "AES security critically depends on key secrecy. Key rotation policies must be enforced.",
+          "recommendation": "Implement automated key rotation every 90 days. Use HSMs for key storage in production.",
+          "references": [
+            "NIST SP 800-38D",
+            "NIST SP 800-57"
+          ]
+        },
+        {
+          "category": "Mode Selection",
+          "severity": "SecurityLevel.HIGH",
+          "description": "GCM mode provides authenticated encryption but has strict IV uniqueness requirements.",
+          "recommendation": "Use 96-bit IVs with deterministic construction (counter-based) or 12-byte random IVs. Never reuse IV with same key.",
+          "references": [
+            "NIST SP 800-38D",
+            "RFC 5288"
+          ]
+        },
+        {
+          "category": "Data Limits",
+          "severity": "SecurityLevel.MEDIUM",
+          "description": "GCM has a 64GB limit per key (2^36 blocks). Exceeding this breaks security guarantees.",
+          "recommendation": "Enforce key rotation before 64GB encrypted. Monitor data volume per key.",
+          "references": [
+            "NIST SP 800-38D Section 8.3"
+          ]
+        },
+        {
+          "category": "Side-Channel Resistance",
+          "severity": "SecurityLevel.MEDIUM",
+          "description": "Software AES implementations vulnerable to timing and cache attacks.",
+          "recommendation": "Use hardware AES-NI instructions. Consider constant-time implementations.",
+          "references": [
+            "Intel AES-NI",
+            "CHES 2010 side-channel research"
+          ]
+        },
+        {
+          "category": "Quantum Resistance",
+          "severity": "SecurityLevel.LOW",
+          "description": "AES-256 provides 128-bit post-quantum security (Grover's algorithm reduces to 128-bit).",
+          "recommendation": "AES-256 is quantum-resistant for foreseeable future. No immediate action needed.",
+          "references": [
+            "NIST PQC standardization",
+            "Grover's algorithm analysis"
+          ]
+        }
+      ],
+      "compliance": {
+        "FIPS_140_2": true,
+        "FIPS_140_3": true,
+        "Common_Criteria": true,
+        "PCI_DSS": true,
+        "GDPR": true
+      }
+    },
+    "eddsa": {
+      "algorithm": "EdDSA",
+      "overall_rating": "VERY_HIGH",
+      "curves": {
+        "Ed25519": {
+          "security_bits": 128,
+          "quantum_bits": 0,
+          "signature_size": 64,
+          "public_key_size": 32,
+          "private_key_size": 32,
+          "recommended": "general_purpose"
+        },
+        "Ed448": {
+          "security_bits": 224,
+          "quantum_bits": 0,
+          "signature_size": 114,
+          "public_key_size": 57,
+          "private_key_size": 57,
+          "recommended": "high_security_long_term"
+        }
+      },
+      "findings": [
+        {
+          "category": "Curve Selection",
+          "severity": "SecurityLevel.HIGH",
+          "description": "Ed25519 provides 128-bit security. Ed448 provides 224-bit security for long-term protection.",
+          "recommendation": "Use Ed25519 for most applications. Use Ed448 for long-term archival (>20 years).",
+          "references": [
+            "RFC 8032",
+            "NIST SP 800-186"
+          ]
+        },
+        {
+          "category": "Side-Channel Resistance",
+          "severity": "SecurityLevel.HIGH",
+          "description": "EdDSA designed with side-channel resistance. No secret-dependent branches or memory access.",
+          "recommendation": "Prefer EdDSA over ECDSA for side-channel resistance. Use constant-time implementations.",
+          "references": [
+            "RFC 8032",
+            "Bernstein et al. Ed25519 paper"
+          ]
+        },
+        {
+          "category": "Randomness Requirements",
+          "severity": "SecurityLevel.HIGH",
+          "description": "EdDSA is deterministic - no per-signature randomness needed. Eliminates entropy failure attacks.",
+          "recommendation": "No additional entropy source needed for signing. Simplifies implementation and improves security.",
+          "references": [
+            "RFC 8032 Section 5.1.6"
+          ]
+        },
+        {
+          "category": "Quantum Resistance",
+          "severity": "SecurityLevel.LOW",
+          "description": "EdDSA based on elliptic curve discrete log - broken by Shor's algorithm.",
+          "recommendation": "Plan migration to post-quantum signatures (e.g., Dilithium, Falcon) for long-term secrets. Ed25519 safe for ephemeral/authentication use.",
+          "references": [
+            "NIST PQC Round 3",
+            "Shor's algorithm"
+          ]
+        },
+        {
+          "category": "Implementation Pitfalls",
+          "severity": "SecurityLevel.MEDIUM",
+          "description": "Point decompression validation critical. Invalid curve points can leak private key.",
+          "recommendation": "Always validate public keys before use. Use well-tested libraries (libsodium, cryptography).",
+          "references": [
+            "RFC 8032 Section 5.1.3",
+            "Invalid curve attacks"
+          ]
+        }
+      ],
+      "compliance": {
+        "FIPS_186_5": true,
+        "RFC_8032": true,
+        "TLS_1.3": true,
+        "SSH": true,
+        "JWT": true
+      }
+    },
+    "hyperledger": {
+      "platform": "Hyperledger Fabric",
+      "version": "2.5+",
+      "overall_rating": "HIGH",
+      "consensus": {
+        "Raft": {
+          "byzantine_tolerant": false,
+          "crash_tolerant": true,
+          "recommended": "trusted_networks"
+        },
+        "Kafka": {
+          "byzantine_tolerant": false,
+          "crash_tolerant": true,
+          "recommended": "deprecated"
+        },
+        "BFT-SMaRt": {
+          "byzantine_tolerant": true,
+          "crash_tolerant": true,
+          "recommended": "untrusted_networks"
+        }
+      },
+      "security_features": {
+        "channels": "Data isolation between participant groups",
+        "private_data": "Confidential data within channels",
+        "endorsement_policies": "Configurable trust models",
+        "identity_msp": "X.509-based identity management",
+        "tls": "Mutual TLS for all communication",
+        "audit_logging": "Immutable transaction ledger"
+      },
+      "findings": [
+        {
+          "category": "Consensus Security",
+          "severity": "SecurityLevel.HIGH",
+          "description": "Raft consensus provides crash fault tolerance only. Byzantine fault tolerance requires BFT-SMaRt or similar.",
+          "recommendation": "Use Raft for trusted consortium networks. Consider BFT ordering service for untrusted participants.",
+          "references": [
+            "Hyperledger Fabric Raft docs",
+            "BFT-SMaRt"
+          ]
+        },
+        {
+          "category": "Endorsement Policy",
+          "severity": "SecurityLevel.HIGH",
+          "description": "Endorsement policies define trust assumptions. Weak policies allow malicious endorsements.",
+          "recommendation": "Use AND policies for multi-party agreement. Require signatures from majority of organizations.",
+          "references": [
+            "Fabric Endorsement Policies",
+            "Fabric Architecture"
+          ]
+        },
+        {
+          "category": "Channel Privacy",
+          "severity": "SecurityLevel.MEDIUM",
+          "description": "Channels provide data isolation but metadata (channel existence, participants) may leak.",
+          "recommendation": "Use private data collections for sensitive data. Limit channel membership visibility.",
+          "references": [
+            "Fabric Private Data",
+            "Fabric Channels"
+          ]
+        },
+        {
+          "category": "Chaincode Security",
+          "severity": "SecurityLevel.HIGH",
+          "description": "Chaincode runs in isolated containers but shares host kernel. Vulnerable chaincode affects all peers.",
+          "recommendation": "Audit chaincode thoroughly. Use sandboxing (gVisor, Kata Containers). Implement chaincode upgrade policies.",
+          "references": [
+            "Fabric Chaincode Security",
+            "Container Security"
+          ]
+        },
+        {
+          "category": "Identity Management",
+          "severity": "SecurityLevel.HIGH",
+          "description": "X.509 certificates manage identities. Certificate revocation and rotation critical.",
+          "recommendation": "Implement automated certificate rotation. Use short-lived certificates (24-48h). Integrate with external IdP (LDAP, OIDC).",
+          "references": [
+            "Fabric CA",
+            "X.509 Certificate Management"
+          ]
+        },
+        {
+          "category": "Quantum Resistance",
+          "severity": "SecurityLevel.LOW",
+          "description": "Fabric uses ECDSA/P256 for TLS and signatures. Vulnerable to quantum attacks.",
+          "recommendation": "Monitor NIST PQC standardization. Plan migration to post-quantum TLS and signatures. Fabric 3.0+ expected to support PQC.",
+          "references": [
+            "NIST PQC",
+            "Hyperledger Fabric Roadmap"
+          ]
+        }
+      ],
+      "compliance": {
+        "GDPR": "With private data collections",
+        "HIPAA": "With proper configuration",
+        "SOX": "With immutable audit trail",
+        "PCI_DSS": "With network segmentation",
+        "ISO_27001": "With proper controls"
+      }
+    }
+  },
+  "comparative": {
+    "performance_comparison": {
+      "aes_256_gcm_1mb": {
+        "avg_encryption_ms": 4.211250000034852,
+        "avg_decryption_ms": 2.433236000024408,
+        "min_encryption_ms": 1.062899999851652,
+        "max_encryption_ms": 72.30100000015227,
+        "throughput_mbps": 237.45918670032034
+      },
+      "eddsa_ed25519_1kb": {
+        "avg_signing_ms": 0.055959000055736396,
+        "avg_verification_ms": 0.44416299997465103,
+        "min_signing_ms": 0.04040000021632295,
+        "max_signing_ms": 0.15629999961674912,
+        "signatures_per_second": 17870.22639796955,
+        "public_key_size": 32,
+        "signature_size": 64
+      },
+      "hyperledger_invoke": {
+        "latencies": [
+          37.09969999999885,
+          26.0746999992989,
+          38.22719999971014,
+          32.171699999707926,
+          38.88920000008511,
+          30.791200000749086,
+          37.22360000028857,
+          17.805600000428967,
+          45.58379999980389,
+          31.194700000014564,
+          31.02149999995163,
+          30.658100000437116,
+          31.53759999986505,
+          28.608600000552542,
+          35.195999999814376,
+          29.384399999798916,
+          35.089699999844015,
+          31.353600000329607,
+          39.81819999989966,
+          71.81089999994583
+        ],
+        "throughputs": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "success_rate": 1.0,
+        "avg_latency_ms": 34.97700000002624,
+        "avg_throughput_tps": 100.0,
+        "min_latency_ms": 17.805600000428967,
+        "max_latency_ms": 71.81089999994583
+      }
+    },
+    "security_comparison": {
+      "aes": {
+        "algorithm": "AES",
+        "overall_rating": "HIGH",
+        "key_sizes": {
+          "128": {
+            "security_bits": 128,
+            "quantum_bits": 64,
+            "recommended": "legacy_only"
+          },
+          "192": {
+            "security_bits": 192,
+            "quantum_bits": 96,
+            "recommended": "transitioning"
+          },
+          "256": {
+            "security_bits": 256,
+            "quantum_bits": 128,
+            "recommended": "preferred"
+          }
+        },
+        "modes": {
+          "GCM": {
+            "authenticated": true,
+            "nonce_misuse_resistant": false,
+            "recommended": true
+          },
+          "CBC": {
+            "authenticated": false,
+            "nonce_misuse_resistant": false,
+            "recommended": false
+          },
+          "CTR": {
+            "authenticated": false,
+            "nonce_misuse_resistant": false,
+            "recommended": false
+          },
+          "CCM": {
+            "authenticated": true,
+            "nonce_misuse_resistant": false,
+            "recommended": true
+          },
+          "OCB": {
+            "authenticated": true,
+            "nonce_misuse_resistant": true,
+            "recommended": true
+          }
+        },
+        "findings": [
+          {
+            "category": "Key Management",
+            "severity": "SecurityLevel.HIGH",
+            "description": "AES security critically depends on key secrecy. Key rotation policies must be enforced.",
+            "recommendation": "Implement automated key rotation every 90 days. Use HSMs for key storage in production.",
+            "references": [
+              "NIST SP 800-38D",
+              "NIST SP 800-57"
+            ]
+          },
+          {
+            "category": "Mode Selection",
+            "severity": "SecurityLevel.HIGH",
+            "description": "GCM mode provides authenticated encryption but has strict IV uniqueness requirements.",
+            "recommendation": "Use 96-bit IVs with deterministic construction (counter-based) or 12-byte random IVs. Never reuse IV with same key.",
+            "references": [
+              "NIST SP 800-38D",
+              "RFC 5288"
+            ]
+          },
+          {
+            "category": "Data Limits",
+            "severity": "SecurityLevel.MEDIUM",
+            "description": "GCM has a 64GB limit per key (2^36 blocks). Exceeding this breaks security guarantees.",
+            "recommendation": "Enforce key rotation before 64GB encrypted. Monitor data volume per key.",
+            "references": [
+              "NIST SP 800-38D Section 8.3"
+            ]
+          },
+          {
+            "category": "Side-Channel Resistance",
+            "severity": "SecurityLevel.MEDIUM",
+            "description": "Software AES implementations vulnerable to timing and cache attacks.",
+            "recommendation": "Use hardware AES-NI instructions. Consider constant-time implementations.",
+            "references": [
+              "Intel AES-NI",
+              "CHES 2010 side-channel research"
+            ]
+          },
+          {
+            "category": "Quantum Resistance",
+            "severity": "SecurityLevel.LOW",
+            "description": "AES-256 provides 128-bit post-quantum security (Grover's algorithm reduces to 128-bit).",
+            "recommendation": "AES-256 is quantum-resistant for foreseeable future. No immediate action needed.",
+            "references": [
+              "NIST PQC standardization",
+              "Grover's algorithm analysis"
+            ]
+          }
+        ],
+        "compliance": {
+          "FIPS_140_2": true,
+          "FIPS_140_3": true,
+          "Common_Criteria": true,
+          "PCI_DSS": true,
+          "GDPR": true
+        }
+      },
+      "eddsa": {
+        "algorithm": "EdDSA",
+        "overall_rating": "VERY_HIGH",
+        "curves": {
+          "Ed25519": {
+            "security_bits": 128,
+            "quantum_bits": 0,
+            "signature_size": 64,
+            "public_key_size": 32,
+            "private_key_size": 32,
+            "recommended": "general_purpose"
+          },
+          "Ed448": {
+            "security_bits": 224,
+            "quantum_bits": 0,
+            "signature_size": 114,
+            "public_key_size": 57,
+            "private_key_size": 57,
+            "recommended": "high_security_long_term"
+          }
+        },
+        "findings": [
+          {
+            "category": "Curve Selection",
+            "severity": "SecurityLevel.HIGH",
+            "description": "Ed25519 provides 128-bit security. Ed448 provides 224-bit security for long-term protection.",
+            "recommendation": "Use Ed25519 for most applications. Use Ed448 for long-term archival (>20 years).",
+            "references": [
+              "RFC 8032",
+              "NIST SP 800-186"
+            ]
+          },
+          {
+            "category": "Side-Channel Resistance",
+            "severity": "SecurityLevel.HIGH",
+            "description": "EdDSA designed with side-channel resistance. No secret-dependent branches or memory access.",
+            "recommendation": "Prefer EdDSA over ECDSA for side-channel resistance. Use constant-time implementations.",
+            "references": [
+              "RFC 8032",
+              "Bernstein et al. Ed25519 paper"
+            ]
+          },
+          {
+            "category": "Randomness Requirements",
+            "severity": "SecurityLevel.HIGH",
+            "description": "EdDSA is deterministic - no per-signature randomness needed. Eliminates entropy failure attacks.",
+            "recommendation": "No additional entropy source needed for signing. Simplifies implementation and improves security.",
+            "references": [
+              "RFC 8032 Section 5.1.6"
+            ]
+          },
+          {
+            "category": "Quantum Resistance",
+            "severity": "SecurityLevel.LOW",
+            "description": "EdDSA based on elliptic curve discrete log - broken by Shor's algorithm.",
+            "recommendation": "Plan migration to post-quantum signatures (e.g., Dilithium, Falcon) for long-term secrets. Ed25519 safe for ephemeral/authentication use.",
+            "references": [
+              "NIST PQC Round 3",
+              "Shor's algorithm"
+            ]
+          },
+          {
+            "category": "Implementation Pitfalls",
+            "severity": "SecurityLevel.MEDIUM",
+            "description": "Point decompression validation critical. Invalid curve points can leak private key.",
+            "recommendation": "Always validate public keys before use. Use well-tested libraries (libsodium, cryptography).",
+            "references": [
+              "RFC 8032 Section 5.1.3",
+              "Invalid curve attacks"
+            ]
+          }
+        ],
+        "compliance": {
+          "FIPS_186_5": true,
+          "RFC_8032": true,
+          "TLS_1.3": true,
+          "SSH": true,
+          "JWT": true
+        }
+      },
+      "hyperledger": {
+        "platform": "Hyperledger Fabric",
+        "version": "2.5+",
+        "overall_rating": "HIGH",
+        "consensus": {
+          "Raft": {
+            "byzantine_tolerant": false,
+            "crash_tolerant": true,
+            "recommended": "trusted_networks"
+          },
+          "Kafka": {
+            "byzantine_tolerant": false,
+            "crash_tolerant": true,
+            "recommended": "deprecated"
+          },
+          "BFT-SMaRt": {
+            "byzantine_tolerant": true,
+            "crash_tolerant": true,
+            "recommended": "untrusted_networks"
+          }
+        },
+        "security_features": {
+          "channels": "Data isolation between participant groups",
+          "private_data": "Confidential data within channels",
+          "endorsement_policies": "Configurable trust models",
+          "identity_msp": "X.509-based identity management",
+          "tls": "Mutual TLS for all communication",
+          "audit_logging": "Immutable transaction ledger"
+        },
+        "findings": [
+          {
+            "category": "Consensus Security",
+            "severity": "SecurityLevel.HIGH",
+            "description": "Raft consensus provides crash fault tolerance only. Byzantine fault tolerance requires BFT-SMaRt or similar.",
+            "recommendation": "Use Raft for trusted consortium networks. Consider BFT ordering service for untrusted participants.",
+            "references": [
+              "Hyperledger Fabric Raft docs",
+              "BFT-SMaRt"
+            ]
+          },
+          {
+            "category": "Endorsement Policy",
+            "severity": "SecurityLevel.HIGH",
+            "description": "Endorsement policies define trust assumptions. Weak policies allow malicious endorsements.",
+            "recommendation": "Use AND policies for multi-party agreement. Require signatures from majority of organizations.",
+            "references": [
+              "Fabric Endorsement Policies",
+              "Fabric Architecture"
+            ]
+          },
+          {
+            "category": "Channel Privacy",
+            "severity": "SecurityLevel.MEDIUM",
+            "description": "Channels provide data isolation but metadata (channel existence, participants) may leak.",
+            "recommendation": "Use private data collections for sensitive data. Limit channel membership visibility.",
+            "references": [
+              "Fabric Private Data",
+              "Fabric Channels"
+            ]
+          },
+          {
+            "category": "Chaincode Security",
+            "severity": "SecurityLevel.HIGH",
+            "description": "Chaincode runs in isolated containers but shares host kernel. Vulnerable chaincode affects all peers.",
+            "recommendation": "Audit chaincode thoroughly. Use sandboxing (gVisor, Kata Containers). Implement chaincode upgrade policies.",
+            "references": [
+              "Fabric Chaincode Security",
+              "Container Security"
+            ]
+          },
+          {
+            "category": "Identity Management",
+            "severity": "SecurityLevel.HIGH",
+            "description": "X.509 certificates manage identities. Certificate revocation and rotation critical.",
+            "recommendation": "Implement automated certificate rotation. Use short-lived certificates (24-48h). Integrate with external IdP (LDAP, OIDC).",
+            "references": [
+              "Fabric CA",
+              "X.509 Certificate Management"
+            ]
+          },
+          {
+            "category": "Quantum Resistance",
+            "severity": "SecurityLevel.LOW",
+            "description": "Fabric uses ECDSA/P256 for TLS and signatures. Vulnerable to quantum attacks.",
+            "recommendation": "Monitor NIST PQC standardization. Plan migration to post-quantum TLS and signatures. Fabric 3.0+ expected to support PQC.",
+            "references": [
+              "NIST PQC",
+              "Hyperledger Fabric Roadmap"
+            ]
+          }
+        ],
+        "compliance": {
+          "GDPR": "With private data collections",
+          "HIPAA": "With proper configuration",
+          "SOX": "With immutable audit trail",
+          "PCI_DSS": "With network segmentation",
+          "ISO_27001": "With proper controls"
+        }
+      }
+    },
+    "recommendations": [
+      "AES-256-GCM recommended for high-security data encryption in cloud storage. Provides authenticated encryption with excellent performance.",
+      "AES-128-GCM suitable for less sensitive data with lower computational overhead.",
+      "Ed25519 recommended for digital signatures - excellent performance, strong security (128-bit), and resistance to side-channel attacks.",
+      "Ed448 provides higher security margin (224-bit) for long-term protection but with ~2x computational cost.",
+      "Hyperledger Fabric suitable for multi-party cloud deployments requiring audit trails and tamper-proof logs. Trade-off: higher latency vs. centralized DB.",
+      "Consider Raft consensus for production deployments; Kafka for high-throughput needs.",
+      "Hybrid approach: Use AES-256-GCM for data encryption, Ed25519 for authentication, Hyperledger for audit logging in multi-tenant cloud environments."
+    ]
+  }
+}
