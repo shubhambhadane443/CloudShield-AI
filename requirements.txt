@@ -1,0 +1,33 @@
+# Core dependencies
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.10.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Cryptography
+cryptography>=41.0.0
+pycryptodome>=3.18.0
+ecdsa>=0.18.0
+
+# Hyperledger Fabric SDK (optional - for production use)
+# fabric-sdk-py>=1.0.0
+
+# Cloud providers
+boto3>=1.28.0
+azure-identity>=1.12.0
+google-cloud-storage>=2.10.0
+
+# Configuration
+pyyaml>=6.0
+python-dotenv>=1.0.0
+
+# Benchmarking
+pytest>=7.4.0
+pytest-benchmark>=4.0.0
+pytest-cov>=4.1.0
+
+# Utilities
+tqdm>=4.65.0
+click>=8.1.0
+rich>=13.0.0

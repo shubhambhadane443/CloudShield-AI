@@ -1,0 +1,82 @@
+# CloudShield AI Configuration
+
+# Cloud Provider Settings
+cloud:
+  provider: "aws"  # aws, azure, gcp
+  region: "us-east-1"
+  credentials:
+    # Use environment variables or AWS CLI configured credentials
+    # access_key: "${AWS_ACCESS_KEY_ID}"
+    # secret_key: "${AWS_SECRET_ACCESS_KEY}"
+
+# Benchmark Parameters
+benchmark:
+  iterations: 1000
+  warmup_iterations: 100
+  data_sizes:
+    - 1024      # 1 KB
+    - 10240     # 10 KB
+    - 102400    # 100 KB
+    - 1048576   # 1 MB
+    - 10485760  # 10 MB
+  concurrency_levels:
+    - 1
+    - 4
+    - 8
+    - 16
+    - 32
+
+# AES Configuration
+aes:
+  key_sizes: [128, 192, 256]
+  modes: ["GCM", "CBC", "CTR"]
+  iv_size: 12
+
+# EdDSA Configuration
+eddsa:
+  curves: ["Ed25519", "Ed448"]
+  hash_algorithms: ["SHA-512", "SHAKE256"]
+
+# Hyperledger Fabric Configuration
+hyperledger:
+  fabric_version: "2.5"
+  network:
+    organizations: 3
+    peers_per_org: 2
+    orderers: 3
+  chaincode:
+    language: "golang"
+    version: "1.0"
+  channels:
+    - name: "cloudshield-channel"
+      organizations: ["Org1", "Org2", "Org3"]
+  consensus: "etcdraft"
+  tls: true
+
+# Security Analysis Thresholds
+security:
+  aes:
+    min_key_size: 128
+    recommended_key_size: 256
+    max_data_per_key: 68719476736  # 64 GB for GCM
+  eddsa:
+    min_curve_security: 128  # bits
+    side_channel_resistance: true
+  hyperledger:
+    endorsement_policy: "AND('Org1.member', 'Org2.member')"
+    block_size_max: 10485760  # 10 MB
+    block_timeout: 2s
+
+# Output Configuration
+output:
+  format: "json"  # json, csv, html
+  directory: "./data/results"
+  generate_plots: true
+  plot_format: "png"
+
+# Logging
+logging:
+  level: "INFO"
+  file: "./logs/cloudshield.log"
+  max_size: "10MB"
+  backup_count: 5

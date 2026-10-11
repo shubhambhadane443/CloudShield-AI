@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CloudShield AI - Debug</title>
+    <style>
+      body { margin: 0; padding: 20px; background: #0f172a; color: white; font-family: system-ui; }
+      .log { padding: 10px; margin: 5px 0; background: #1e293b; border-radius: 4px; font-family: monospace; font-size: 12px; }
+      .error { border-left: 3px solid #ef4444; }
+      .success { border-left: 3px solid #22c55e; }
+    </style>
+  </head>
+  <body>
+    <h1>CloudShield AI - Debug Page</h1>
+    <div id="logs"></div>
+    <div id="root"></div>
+    
+    <script>
+      function log(msg, type = 'log') {
+        const div = document.createElement('div');
+        div.className = 'log ' + type;
+        div.textContent = new Date().toLocaleTimeString() + ' - ' + msg;
+        document.getElementById('logs').appendChild(div);
+      }
+      
+      // Override console to capture logs
+      const originalLog = console.log;
+      const originalError = console.error;
+      console.log = (...args) => { log(args.join(' '), 'log'); originalLog.apply(console, args); };
+      console.error = (...args) => { log(args.join(' '), 'error'); originalError.apply(console, args); };
+      
+      log('📄 Page loaded, inline script executing');
+    </script>
+    
+    <script type="module">
+      try {
+        log('📦 Loading React from CDN...');
+        const React = (await import('https://esm.sh/react@18')).default;
+        const ReactDOM = await import('https://esm.sh/react-dom@18/client');
+        log('✅ React loaded from CDN');
+        
+        function App() {
+          return React.createElement('div', { style: { padding: '20px', border: '2px solid #22c55e', borderRadius: '8px', margin: '20px', background: '#1e293b' } }, [
+            React.createElement('h2', { key: '1', style: { color: '#22c55e' } }, '✅ React from CDN Works!'),
+            React.createElement('p', { key: '2' }, 'React can render in this browser.'),
+            React.createElement('p', { key: '3', style: { color: '#94a3b8', fontSize: '14px' } }, 'Vite dev server is working correctly.')
+          ]);
+        }
+        
+        log('🔧 Creating React root...');
+        const root = ReactDOM.createRoot(document.getElementById('root'));
+        log('🎨 Rendering App...');
+        root.render(React.createElement(React.StrictMode, null, React.createElement(App, null)));
+        log('🎉 React mounted successfully!');
+        
+      } catch (err) {
+        log('❌ Error: ' + err.message, 'error');
+        console.error(err);
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,30 @@
+CloudShield AI Benchmark Summary
+========================================
+
+AES Results:
+  aes_128_GCM: 1.53 ms encrypt, 654.90 MB/s
+  aes_128_CBC: 2.56 ms encrypt, 390.67 MB/s
+  aes_128_CTR: 1.78 ms encrypt, 562.80 MB/s
+  aes_192_GCM: 1.37 ms encrypt, 731.85 MB/s
+  aes_192_CBC: 2.65 ms encrypt, 377.77 MB/s
+  aes_192_CTR: 1.41 ms encrypt, 709.83 MB/s
+  aes_256_GCM: 1.21 ms encrypt, 826.36 MB/s
+  aes_256_CBC: 3.01 ms encrypt, 332.76 MB/s
+  aes_256_CTR: 1.40 ms encrypt, 714.48 MB/s
+
+EdDSA Results:
+  eddsa_Ed25519: 0.06 ms sign, 18052 sig/s
+  eddsa_Ed448: 0.65 ms sign, 1536 sig/s
+
+Hyperledger Results:
+  invoke: 10.48 ms latency, 100 TPS
+  query: 5.48 ms latency, 500 TPS
+
+Recommendations:
+  - AES-256-GCM recommended for high-security data encryption in cloud storage. Provides authenticated encryption with excellent performance.
+  - AES-128-GCM suitable for less sensitive data with lower computational overhead.
+  - Ed25519 recommended for digital signatures - excellent performance, strong security (128-bit), and resistance to side-channel attacks.
+  - Ed448 provides higher security margin (224-bit) for long-term protection but with ~2x computational cost.
+  - Hyperledger Fabric suitable for multi-party cloud deployments requiring audit trails and tamper-proof logs. Trade-off: higher latency vs. centralized DB.
+  - Consider Raft consensus for production deployments; Kafka for high-throughput needs.
+  - Hybrid approach: Use AES-256-GCM for data encryption, Ed25519 for authentication, Hyperledger for audit logging in multi-tenant cloud environments.

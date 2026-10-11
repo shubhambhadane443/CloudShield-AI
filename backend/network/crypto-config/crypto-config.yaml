@@ -1,0 +1,22 @@
+PeerOrgs:
+- Domain: org1.example.com
+  Name: Org1
+  Template:
+    Count: 2
+    Start: 0
+  Users:
+    Count: 1
+- Domain: org2.example.com
+  Name: Org2
+  Template:
+    Count: 2
+    Start: 0
+  Users:
+    Count: 1
+- Domain: org3.example.com
+  Name: Org3
+  Template:
+    Count: 2
+    Start: 0
+  Users:
+    Count: 1

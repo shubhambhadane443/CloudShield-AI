@@ -1,0 +1,61 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / Packaging
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+venv/
+env/
+.env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Test coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Benchmark results
+data/results/
+*.json
+!config/*.yaml
+
+# Docker
+docker-compose.override.yml
+
+# Hyperledger Fabric
+network/crypto-config/
+network/channel-artifacts/
+network/docker-compose.yaml
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Mypy
+.mypy_cache/
+*.pyi
+
+# Type checking
+.pyre/

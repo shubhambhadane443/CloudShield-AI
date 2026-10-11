@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CloudShield AI - Test</title>
+    <style>
+      body { margin: 0; padding: 20px; background: #0f172a; color: white; font-family: system-ui; }
+      #test-output { padding: 20px; background: #1e293b; border-radius: 8px; margin: 20px 0; }
+    </style>
+  </head>
+  <body>
+    <h1>CloudShield AI - JavaScript Test</h1>
+    <div id="test-output">Waiting for JavaScript...</div>
+    <div id="root"></div>
+    
+    <script>
+      document.getElementById('test-output').innerHTML = '✅ JavaScript executes!';
+      console.log('Inline script executed');
+    </script>
+    
+    <script type="module">
+      import React from 'https://esm.sh/react@18'
+      import ReactDOM from 'https://esm.sh/react-dom@18/client'
+      
+      function App() {
+        return React.createElement('div', { style: { padding: '20px', border: '2px solid green', borderRadius: '8px', margin: '20px' } }, [
+          React.createElement('h2', { key: '1' }, '✅ React from CDN Works!'),
+          React.createElement('p', { key: '2' }, 'If you see this, React can render in this browser.')
+        ])
+      }
+      
+      const root = ReactDOM.createRoot(document.getElementById('root'))
+      root.render(React.createElement(React.StrictMode, null, React.createElement(App, null)))
+      console.log('CDN React mounted')
+    </script>
+  </body>
+</html>
